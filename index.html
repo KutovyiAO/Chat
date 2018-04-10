@@ -10,24 +10,35 @@
 <!--окно чата-->
 <div id="main_window">
     <!--название чата-->
-    <div id="name_chat">MY chat
+    <div id="name_chat" class="title_name_chat">
+        <div>MY chat</div>
         <div id="search_window">
-            <input type="text">
-            <button>Поиск</button>
+            <input type="text" class="input_ser">
+            <button class="sear">Поиск</button>
         </div>
     </div>
-    <!--левая чвсть-->
-    <div id="left_part">
-
-        <div id="contact_area">
-            <div>контакт №1</div>
+    <div class="info_block">
+        <!--левая чвсть-->
+        <div id="left_part" class="left_part">
+            <div id="contact_area">
+                <div class="book_name">
+                    контакт №1
+                </div>
+            </div>
         </div>
-    </div>
-    <!--Правая часть-->
-
-    <div id="right_part">
-        <textarea  id="text" cols="40" rows="3"></textarea>
-        <input type="text" id="input_window"  value="Отправить">
+        <!--Правая часть-->
+        <div id="right_part" class="right_info_mess">
+            <div>
+                <p>
+                    Hello!
+                </p>
+            </div>
+            <div class="under_content">
+                <textarea  id="text" cols="40" rows="3" class="area_text"></textarea>
+                <!--<input type="text" id="input_window"  value="Отправить">-->
+                <button class="button_send">Отправить</button>
+            </div>
+        </div>
     </div>
 </div>
 
